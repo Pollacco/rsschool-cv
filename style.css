@@ -2,3 +2,27 @@ main {
   width: 1024px;
   margin: 0 auto;
 }
+
+header {
+  margin: 50px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+.contacts_list {
+  text-align: right;
+}
+
+.photo img{
+  max-width: 260px;
+  border-radius: 50%;
+}
