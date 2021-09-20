@@ -1,5 +1,5 @@
-main {
-  width: 1024px;
+body {
+  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -12,6 +12,20 @@ header {
 
 nav ul {
   list-style-type: none;
+}
+
+main {
+  margin: 50px 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  margin: 20px 30px;
+}
+
+.content {
+  margin: 20px 30px;
 }
 
 .contacts {
