@@ -1,4 +1,84 @@
-.info{
-  width: 1024px;
+body {
+  max-width: 1024px;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+main {
+  padding-top: 50px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  background-color: #f3f4f5;
+  min-width: 180px;
+  padding: 20px 30px 0 20px;
+}
+
+.content {
+  min-width: 320px;
+  padding: 20px 30px;
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+.contacts_list {
+  text-align: right;
+}
+
+.photo img{
+  max-width: 260px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #e1e1e1;
+}
+
+pre {
+  overflow: auto;
+  background-color: #f3f4f5;
+}
+
+.navigation {  
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  width: 100%;
+  display: flex;
+}
+
+.nav_item {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  border-radius: 50%;
 }
