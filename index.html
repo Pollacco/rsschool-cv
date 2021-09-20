@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sviontek Andrey CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body> 
   <header>
@@ -64,7 +67,16 @@
       </div> 
       <div class="example">
         <h2>Example of My Code</h2>
-        <p>5. Examples of my codes can be found in open repositories on my <a href="https://pollacco.github.io/CV" target="blank">GitHub</a></p>
+        <pre>
+          <code>            
+            module.exports = function towelSort (matrix) {
+              let arr = [];
+              if (matrix === undefined || matrix.length === 0) return [];
+              matrix.forEach((e, index) => ((index % 2) ? arr.push(e.reverse()) : arr.push(e)));
+              return arr.flat();
+            }
+          </code>
+        </pre>
       </div>  
       <div class="english">
         <h2>Foreign languages</h2>
