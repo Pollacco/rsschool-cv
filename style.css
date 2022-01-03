@@ -4,13 +4,16 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
-
 header {
-  padding: 50px 100px;
+  background-color: #E4F0FE;
+  padding: 50px 100px 20px 100px;
+}
+
+.header_wrapper {
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #E4F0FE;
 }
 
 h1, h2, h3, h4{
@@ -22,11 +25,17 @@ h1 {
 }
 
 h2 {
-  color: #0E68C9
+  color: #0E68C9;
+  margin: 25px;
 }
 
 h3 {
   color: grey;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
 }
 
 h6 {
@@ -41,7 +50,7 @@ a {
   color: #000;
 }
 
-nav ul {
+ul {
  list-style-type: none;
 }
 
@@ -132,4 +141,29 @@ pre {
 
 .project_pre {
   max-width: 350px;
+}
+
+.head_item {
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  margin-left: 20px;
+}
+
+p .date {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav_head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_head_link {
+  color: #c1c1c1
 }

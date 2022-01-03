@@ -11,19 +11,40 @@
 </head>
 <body> 
   <header>
-    <div class="photo">
-      <img src="assets/images/self.jpg" alt="Andrey Sviontek's photo">                
+    <div class="header_wrapper">
+      <div class="photo">
+        <img src="assets/images/self.jpg" alt="Andrey Sviontek's photo">                
+      </div>
+      <div class="name">
+        <h1>Andrey Sviontek</h1>
+        <div class="contacts">
+          <ul class="contacts_list">
+            <li><a href="mailto:andrey.sviontek@gmail.com">andrey.sviontek@gmail.com</a></li>
+            <li><a href="tel:+79085757891">+79085757891</a></li>
+            <li><a href="https://github.com/Pollacco" target="blank">Github</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="name">
-      <h1>Andrey Sviontek</h1>
-      <nav class="contacts">
-        <ul class="contacts_list">
-          <li><a href="mailto:andrey.sviontek@gmail.com">andrey.sviontek@gmail.com</a></li>
-          <li><a href="tel:+79085757891">+79085757891</a></li>
-          <li><a href="https://github.com/Pollacco" target="blank">Github</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul class="nav_head">
+        <li>
+          <a class="nav_head_link" href="#about">About me</a>
+        </li>
+        <li>
+          <a class="nav_head_link" href="#experience">Experience</a>
+        </li>
+        <li>
+          <a class="nav_head_link" href="#example">Example of My Code</a>
+        </li>
+        <li>
+          <a class="nav_head_link" href="#projects">Completed training projects</a>
+        </li>
+        <li>
+          <a class="nav_head_link" href="#english">Foreign languages</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main>
     <aside>
@@ -45,15 +66,17 @@
       </div>
     </aside>
     <section class="content">
-      <div class="summary">
-        <h2>Summary</h2>
-        <p>It is very interesting to create cool sites, useful applications. Im interesting to learn programming because it is exciting, useful and opens up new professional perspectives. Therefore, my goal is to gain maximum experience, during The Rolling Scopes, to acquire the necessary skills to further apply them at a professional level.</p>
+      <div class="summary" id="about">
+        <h2>About me</h2>
+        <p>Hello everyone! My name is Andrey, I am a beginner web developer. I plan to maximize my skills in this school in order to get a job in the future and develop cool websites and applications.</p>
       </div>
-      <div class="experience">
+      <div class="experience" id="experience">
         <h2>Experience</h2>
         <div class="exp_item">
-          <p class="date">IV.20 - VIII.20</p>
-          <h4 class="company">Darts</h4>
+          <div class="head_item">
+            <p class="date">IV.20 - VIII.20</p>
+            <h4 class="company">Darts</h4>
+          </div>
           <p class="position">Junoir Frontend-Developer</p>
           <p class="description">The company took orders on different platforms and freelance resources. A large amount of different tasks, using different technologies.</p>
           <h5>Development stack:</h5>
@@ -66,9 +89,11 @@
           </ul>
         </div>
         <div class="exp_item">
-          <p class="date">XII.19 - I.20</p>
-          <h4 class="company">zaycev.net</h4>
-          <p class="position">internship as a beginner web developer</p>
+          <div class="head_item">
+            <p class="date">XII.19 - I.20</p>
+            <h4 class="company">zaycev.net</h4>
+          </div>
+          <p class="position">Internship as a beginner web developer</p>
           <p class="description">Finished 2 months internship in a company for novice developers</p>
           <h5>Development stack:</h5>
           <ul>
@@ -79,7 +104,7 @@
           </ul>
         </div>
       </div> 
-      <div class="example">
+      <div class="example" id="example">
         <h2>Example of My Code</h2>
         <pre>
           <code>            
@@ -89,7 +114,7 @@
           </code>
         </pre>
       </div>  
-      <div class="projects">
+      <div class="projects" id="projects">
         <h2>Completed training projects</h2>
         <div class="projects_list">
           <a class="project_item" href="https://rolling-scopes-school.github.io/pollacco-JSFE2021Q3/museum/" target="blank">
@@ -110,7 +135,7 @@
           </a>
         </div>
       </div>
-      <div class="english">
+      <div class="english" id="english">
         <h2>Foreign languages</h2>
         <p>English (A2)</p>
       </div>     
