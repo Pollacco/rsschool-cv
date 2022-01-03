@@ -10,10 +10,29 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #E4F0FE;
 }
 
 h1, h2, h3, h4{
   font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #0066DD;
+}
+
+h2 {
+  color: #0E68C9
+}
+
+h3 {
+  color: grey;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }
 
 a {
@@ -33,7 +52,7 @@ main {
 }
 
 aside {
-  background-color: #f3f4f5;
+  background-color: #E4F0FE;
   min-width: 180px;
   padding: 20px 30px 0 20px;
 }
@@ -41,6 +60,7 @@ aside {
 .content {
   min-width: 320px;
   padding: 20px 30px;
+  background-color: #fff;
 }
 
 .contacts {
@@ -54,10 +74,11 @@ aside {
 .photo img{
   max-width: 260px;
   border-radius: 50%;
+  border: solid 4px #0063D5;
 }
 
 footer {
-  background-color: #e1e1e1;
+  background-color: #E4F0FE;
 }
 
 pre {
@@ -87,4 +108,28 @@ pre {
 
 .round {
   border-radius: 50%;
+}
+
+.footer_logo {
+  height: 38px;
+}
+
+.github_logo {
+  height: 38px;
+}
+
+.projects_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_pre {
+  max-width: 350px;
 }

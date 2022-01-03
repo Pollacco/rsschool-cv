@@ -20,7 +20,7 @@
         <ul class="contacts_list">
           <li><a href="mailto:andrey.sviontek@gmail.com">andrey.sviontek@gmail.com</a></li>
           <li><a href="tel:+79085757891">+79085757891</a></li>
-          <li><a href="https://github.com/Pollacco">Github</a></li>
+          <li><a href="https://github.com/Pollacco" target="blank">Github</a></li>
         </ul>
       </nav>
     </div>
@@ -83,15 +83,33 @@
         <h2>Example of My Code</h2>
         <pre>
           <code>            
-            module.exports = function towelSort (matrix) {
-              let arr = [];
-              if (matrix === undefined || matrix.length === 0) return [];
-              matrix.forEach((e, index) => ((index % 2) ? arr.push(e.reverse()) : arr.push(e)));
-              return arr.flat();
-            }
+            function simpleMultiplication(number) {
+              return number % 2 === 0 ? number * 8 : number * 9
+          }
           </code>
         </pre>
       </div>  
+      <div class="projects">
+        <h2>Completed training projects</h2>
+        <div class="projects_list">
+          <a class="project_item" href="https://rolling-scopes-school.github.io/pollacco-JSFE2021Q3/museum/" target="blank">
+            <h6>Museum</h6>
+            <img class="project_pre" src="/rsschool-cv/assets/images/museum.jpg" alt="main page of museum project">
+          </a>            
+          <a class="project_item" href="https://pollacco.github.io/Hexal/" target="blank">
+            <h6>Hexal</h6>
+            <img class="project_pre" src="/rsschool-cv/assets/images/hexal.jpg" alt="main page of hexal project">
+          </a>
+          <a class="project_item" href="https://irinitomi.github.io/Neutron/" target="blank">
+            <h6>Neutron</h6>
+            <img class="project_pre" src="/rsschool-cv/assets/images/Neuron.jpg" alt="main page of neutron project">
+          </a>
+          <a class="project_item" href="https://pollacco.github.io/Kinipoisk/index.html" target="blank">
+            <h6>Kinopoisk</h6>
+            <img class="project_pre" src="/rsschool-cv/assets/images/kino.jpg" alt="main page of kinopoisk project">
+          </a>
+        </div>
+      </div>
       <div class="english">
         <h2>Foreign languages</h2>
         <p>English (A2)</p>
@@ -101,9 +119,9 @@
   <footer>
     <nav class="navigation">
       <ul class="nav_list">
-        <li class="nav_item"><a href="https://rs.school/js/"><img src="assets/svg/rs_school_js.svg" alt="Rolling Scopes School's logo" height="38px"></a></li>
-        <li class="nav_item">2021</li>
-        <li class="nav_item"><a href="https://github.com/Pollacco" target="blank"><img class="round" src="assets/images/github.png" alt="github logo" height="38px"></a></li>
+        <li class="nav_item"><a href="https://rs.school/js/" target="blank"><img class="footer_logo" src="assets/svg/rs_school_js.svg" alt="Rolling Scopes School's logo"></a></li>
+        <li class="nav_item">2022</li>
+        <li class="nav_item"><a href="https://github.com/Pollacco" target="blank"><img class="github_logo round" src="assets/images/github.png" alt="github logo" ></a></li>
       </ul>
     </nav>
   </footer>     
