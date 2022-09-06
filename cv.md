@@ -6,7 +6,7 @@
 
 4. React, Redux, JavaScript, HTML5, CSS3, SASS, Git, VSCode, BEM;
  
-5. Examples of my codes can be found in open repositories on my [GitHub](https://pollacco.github.io/CV/)
+5. Examples of my codes can be found in open repositories on my [GitHub](https://pollacco.github.io/CV/);
 
 6. My experience at the moment is limited to The Rolling Scopes materials. But this is a cool school, so my experience is growing fast;
 
