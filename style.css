@@ -1,0 +1,169 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+header {
+  background-color: #E4F0FE;
+  padding: 50px 100px 20px 100px;
+}
+
+.header_wrapper {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #0066DD;
+}
+
+h2 {
+  color: #0E68C9;
+  margin: 25px;
+}
+
+h3 {
+  color: grey;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+ list-style-type: none;
+}
+
+main {
+  padding-top: 50px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  background-color: #E4F0FE;
+  min-width: 180px;
+  padding: 20px 30px 0 20px;
+}
+
+.content {
+  min-width: 320px;
+  padding: 20px 30px;
+  background-color: #fff;
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+.contacts_list {
+  text-align: right;
+}
+
+.photo img{
+  max-width: 260px;
+  border-radius: 50%;
+  border: solid 4px #0063D5;
+}
+
+footer {
+  background-color: #E4F0FE;
+}
+
+pre {
+  overflow: auto;
+  background-color: #f3f4f5;
+}
+
+.navigation {  
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  width: 100%;
+  display: flex;
+}
+
+.nav_item {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.footer_logo {
+  height: 38px;
+}
+
+.github_logo {
+  height: 38px;
+}
+
+.projects_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_pre {
+  max-width: 350px;
+}
+
+.head_item {
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  margin-left: 20px;
+}
+
+p .date {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav_head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_head_link {
+  color: #c1c1c1
+}
